@@ -14,7 +14,7 @@ ul {
     list-style: none;
 }
 
-a, a:visited {
+a {
     text-decoration: none;
   }
 
@@ -25,6 +25,7 @@ li {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 .logo {
     font-family: Raleway;
     font-style: normal;
@@ -40,10 +41,19 @@ body {
     color: var(--blue-text);
 }
 
+.nav-link:active {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--blue-text);
+}
+
 .nav-link {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
+    font-size: 14px;
     color: var(--graphite-text);
 }
 
@@ -51,5 +61,87 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
+    font-size: 14px;
     color: var(--grey-text);
+}
+
+.order {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--white-text);
+}
+.hero {
+    background: var(--back-gray);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    color: var(--white-text);
+}
+
+.advantages {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--graphite-text);
+}
+
+.description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--grey-text);
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--graphite-text);
+}
+
+.name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--graphite-text);
+}
+
+.specialty {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--grey-text);
+}
+
+.adress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--white-text);
+}
+
+footer {
+    background: var(--back-gray);
+}
+
+.footer-contacts {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--grey-text-op60);
 }
