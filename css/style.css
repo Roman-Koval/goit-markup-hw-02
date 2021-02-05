@@ -57,6 +57,9 @@ body {
     color: var(--blue-text);
 }
 
+.isActive .nav-link {
+    color: var(--blue-text);
+}
 
 
 .nav-link {

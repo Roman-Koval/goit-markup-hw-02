@@ -67,6 +67,10 @@ body {
     color: var(--graphite-text);
 }
 
+.isActive .nav-link {
+    color: var(--blue-text);
+}
+
 .contacts {
     font-family: Roboto;
     font-style: normal;
