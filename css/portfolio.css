@@ -43,6 +43,14 @@ body {
     color: var(--blue-text);
 }
 
+.logo-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--white-text);
+}
+
 .nav-link:active {
     font-family: Roboto;
     font-style: normal;
