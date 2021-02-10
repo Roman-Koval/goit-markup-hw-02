@@ -31,6 +31,7 @@ body {
     font-style: normal;
     font-weight: bold;
     color: var(--black-text);
+    font-size: 26px;
 
 }
 
@@ -39,47 +40,59 @@ body {
     font-style: normal;
     font-weight: bold;
     color: var(--blue-text);
+    font-size: 26px;
 }
 
 .logo-footer {
-    font-family: Roboto;
+    font-family: Raleway;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 26px;
     color: var(--white-text);
 }
 
-.nav-link:active {
-    font-family: Roboto;
+/* .nav-link:active {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: var(--blue-text);
-}
+} */
 
 .isActive .nav-link {
     color: var(--blue-text);
+
 }
 
 
 .nav-link {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: var(--graphite-text);
 }
 
+.nav-link:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--blue-text);
+}
+
 .contacts {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: var(--grey-text);
 }
 
+.contacts:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--blue-text);
+}
+
 .order {
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -91,7 +104,6 @@ body {
 
 h1 {
     text-transform: uppercase;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -100,7 +112,6 @@ h1 {
 
 .advantages {
     text-transform: uppercase;
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -108,7 +119,6 @@ h1 {
 }
 
 .description {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -116,7 +126,6 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -124,7 +133,6 @@ h2 {
 }
 
 .name {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -132,7 +140,6 @@ h2 {
 }
 
 .specialty {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -140,7 +147,6 @@ h2 {
 }
 
 .adress {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -152,7 +158,6 @@ footer {
 }
 
 .footer-contacts {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

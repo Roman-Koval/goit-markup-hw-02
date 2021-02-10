@@ -30,6 +30,7 @@ body {
 
 .logo {
     font-family: Raleway;
+    font-size: 26px;
     font-style: normal;
     font-weight: bold;
     color: var(--black-text);
@@ -38,6 +39,7 @@ body {
 
 .logo-blue {
     font-family: Raleway;
+    font-size: 26px;
     font-style: normal;
     font-weight: bold;
     color: var(--blue-text);
@@ -46,25 +48,30 @@ body {
 .logo-footer {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 26px;
     color: var(--white-text);
 }
 
-.nav-link:active {
-    font-family: Roboto;
+/* .nav-link:active {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: var(--blue-text);
-}
+} */
 
 .nav-link {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: var(--graphite-text);
+}
+
+.nav-link:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--blue-text);
 }
 
 .isActive .nav-link {
@@ -72,15 +79,21 @@ body {
 }
 
 .contacts {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: var(--grey-text);
 }
 
+.contacts:hover {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--blue-text);
+}
+
 .button {
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -89,8 +102,18 @@ body {
     border-radius: 4px;
 }
 
+.button:hover {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #2196F3;
+    border-radius: 4px;
+}
+
 .button:active {
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -114,7 +137,6 @@ button:focus {
 }
 
 h3 {
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -122,7 +144,6 @@ h3 {
 }
 
 .work-description {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -130,7 +151,6 @@ h3 {
 }
 
 .adress {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -142,7 +162,6 @@ footer {
 }
 
 .footer-contacts {
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
